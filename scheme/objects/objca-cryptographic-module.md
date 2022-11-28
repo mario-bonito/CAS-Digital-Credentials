@@ -1,8 +1,10 @@
-# Object of Conformity Assessment Specification: TEMPLATE
+# Object of Conformity Assessment Specification: Cryptographic Module
 
 ## Part 1: Object of Conformity Assessment Specifications
 
-**Storage** A foundational layer for secure data storage, including personal data, including data models for storage and transport, syntax, data at rest protection, CRUD API, access control, synchronization, and a minimum viable HTTP-based interface compatible with W3C DIDs/VCs.
+The set of hardware, software, and/or firmware that implements cryptographic security functions (including cryptographic algorithms and key generation) and is contained within the cryptographic boundary.
+
+>**Definition** add definition here
 
 ### Related Definitions
 
@@ -35,9 +37,12 @@ ISO Conventions for Requirements
 * **Permission** - MAY, MAY NOT
 * **Possibility and Capability** - CAN, CANNOT
 
-1. All Storage SHALL use required crypotgrahic modules as outlined in [Cryptographic Module](./objca-crypotgrahic-module.md) to secure personal information
-2. In a cloud computing enviroment Storage SHALL implement ISO/IEC 27018 measures to protect personally identifiable information (PII) and personal information (PI) in accordance with ISO/IEC 29100
-3.
+1. All cryptographic algorithms and parameters SHALL conform with [ ITSP.40.111 - Cryptographic algorithms for UNCLASSIFIED, PROTECTED A, and PROTECTED B Information ](https://cyber.gc.ca/en/guidance/cryptographic-algorithms-unclassified-protected-protected-b-information-itsp40111)
+2. All data (both at rest and/or in transit) SHALL be treated at PROTECTED B
+3. Passphrases and passwords SHOULD follow reccomended best practices [ITSAP.30.032 - Best practices for passphrases and passwords](https://cyber.gc.ca/en/guidance/best-practices-passphrases-and-passwords-itsap30032)
+4. Sanitization of all data SHALL be done using the following recognized methods:
+  * Crypto erase (CE): This method securely deletes the encryption key used to encrypt data on the media. The encrypted data remains on the media, and SHALL be erased using the Overwrite and Secure Erase method.
+  * Overwrite and secure erase (SE): This method uses software to write multiple passes (3 or more series) of random binary code (zeros and ones) on the storage media to prevent anyone from reading the previous data.
 
 ## Part 3: Determination of Outputs, Review and Attestation
 

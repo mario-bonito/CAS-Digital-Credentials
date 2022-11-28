@@ -1,8 +1,12 @@
-# Object of Conformity Assessment Specification: TEMPLATE
+# Object of Conformity Assessment Specification: Decentralized Identifier
 
 ## Part 1: Object of Conformity Assessment Specifications
 
-**Storage** A foundational layer for secure data storage, including personal data, including data models for storage and transport, syntax, data at rest protection, CRUD API, access control, synchronization, and a minimum viable HTTP-based interface compatible with W3C DIDs/VCs.
+A DID is a simple text string consisting of three parts: 1) the _did_ URI scheme identifier, 2) the identifier for the _DID method_, and 3) the DID method-specific identifier.
+
+![Parts of DID](../../images/parts-of-did.png)
+
+>**Definition** add definition here
 
 ### Related Definitions
 
@@ -35,9 +39,7 @@ ISO Conventions for Requirements
 * **Permission** - MAY, MAY NOT
 * **Possibility and Capability** - CAN, CANNOT
 
-1. All Storage SHALL use required crypotgrahic modules as outlined in [Cryptographic Module](./objca-crypotgrahic-module.md) to secure personal information
-2. In a cloud computing enviroment Storage SHALL implement ISO/IEC 27018 measures to protect personally identifiable information (PII) and personal information (PI) in accordance with ISO/IEC 29100
-3.
+1. Decentralized Identifiers SHALL conform with [Decentralized Identifiers (DIDs) v1.0](https://www.w3.org/TR/did-core/) W3C Reccomendation
 
 ## Part 3: Determination of Outputs, Review and Attestation
 

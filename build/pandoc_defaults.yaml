@@ -3,7 +3,12 @@ input-files:
  - ${.}/ts-115-intro.md
  - ${.}/../scheme/objects/objca-table.md
  - ${.}/../scheme/objects/objca-digital-credential.md
+ - ${.}/../scheme/objects/objca-decentralized-identifer.md
  - ${.}/../scheme/objects/objca-issuer.md
+ - ${.}/../scheme/objects/objca-holder.md
+ - ${.}/../scheme/objects/objca-verifier.md
+ - ${.}/../scheme/objects/objca-cryptographic-module.md
+ - ${.}/../scheme/objects/objca-storage.md
  - ${.}/../scheme/references.md
 
 from: markdown

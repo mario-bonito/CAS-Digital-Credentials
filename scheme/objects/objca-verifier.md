@@ -1,4 +1,4 @@
-# Object of Conformity Assessment Specification: VERFFIER
+# Object of Conformity Assessment Specification: VERIFFIER
 
 ## Part 1: Object of Conformity Assessment Specifications
 

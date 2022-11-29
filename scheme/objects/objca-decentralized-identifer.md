@@ -15,9 +15,9 @@ A DID is a simple text string consisting of three parts: 1) the _did_ URI scheme
 
 ### Determination of Activities and Methods of Test
 
-## Part 2: Object of Conformity Asssessment Requirements
+## Part 2: Object of Conformity Assessment Requirements
 
-1. Decentralized Identifiers SHALL conform with W3C's reccomendations for [Decentralized Identifiers (DIDs) v1.0](https://www.w3.org/TR/did-core/)
+1. Decentralized Identifiers SHALL conform with W3C's recommendations for [Decentralized Identifiers (DIDs) v1.0](https://www.w3.org/TR/did-core/)
 
 ## Part 3: Determination of Outputs, Review and Attestation
 

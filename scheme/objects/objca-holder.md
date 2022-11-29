@@ -14,16 +14,14 @@
 
 ### Determination of Activities and Methods of Test
 
-## Part 2: Object of Conformity Asssessment Requirements
+## Part 2: Object of Conformity Assessment Requirements
 
 1. The Holder Component SHALL detect indications of credential misuse or compromise of the identity information. _NOTE:_ As an example, the expiry date having been exceeded or the detection of suspicious activity.
 2. The Holder Component SHALL be able to request a credential from an issuer
-
     * The credential request SHALL allow the request to enable holder and subject binding where:
         * The Holder Component MAY be able to generate identifiers enabling proof of identifier control
             * Examples include pairwise decentralized identifiers, other decentralized identifiers, and other methods resulting in a URI identifier that can serve as subject in a Verifiable Credential or a holder in a Verifiable Presentation
     * The Holder Component MAY be able to generate proofs of identifier control
-
 3. The Holder Component SHALL be able to request a credential in response to a holder action.
 4. The Holder Component MAY be able to request a credential using a subscribe model in which verifiable credentials representing earned credentials from one or more issuers are requested/received/persisted so that the Holder component stays up-to-date with available credentials from those issuers.
 5. The Holder Component SHALL be able to receive credentials.
@@ -50,7 +48,7 @@
     * Notifying the user of any changes to credentials;
     * Ensuring consent of the user prior to any transaction; and
     * Ensuring adherence to applicable accessibility requirements.
-20. The Holder Component SHALL preserve digital credentials in accordance with the general characteristics specified in (Digital Credential)[./objca-digital-credential.md] of this Specification.
+20. The Holder Component SHALL preserve digital credentials in accordance with the general characteristics specified in the [Digital Credential](./objca-digital-credential.md) subsection of this Specification.
 
 ## Part 3: Determination of Outputs, Review and Attestation
 

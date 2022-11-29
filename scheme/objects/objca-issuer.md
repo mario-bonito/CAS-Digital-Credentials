@@ -42,7 +42,6 @@ An _Issuer_ asserts _claims_ about one or more _Subjects_, creates a _Credential
 ##### Postconditions
 1. A _Holder_ is assigned control over an issued _Credential_ so as the _Holder_'s control of the _Credential_ may be subsequently verified.
 
-
 #### Revoke Credential
 
 ##### Actors
@@ -62,17 +61,16 @@ An _Issuer_ revokes a _Credential_ it has issued so that a _Verifier_ recognizes
 1. Information about the status of the previously-issued _Credential_ is updated to indicate that the _Issuer_ no longer asserts one or more _Claims_ the _Credential_ contains.
 1. This updated information about the status of the _Credential_ is available for _Verifiers_ to use as they verify _Credentials_ that are presented to them.
 
-
 ### Selection of Product, Service or Process
 
 * Provide descriptions of selected the products, services or process that are being tested in relation to the conformity assessment requirements._
 
 ### Determination of Activities and Methods of Test
 
-- Provide a description of activities undertaken and [methods of test](./methods-of-tests.md). used to btain information regarding the fulfillment of the conformity assessment  requirements. 
+- Provide a description of activities undertaken and [methods of test](./methods-of-tests.md). used to obtain information regarding the fulfillment of the conformity assessment  requirements.
 
 
-## Part 2: Object of Conformity Asssessment Requirements
+## Part 2: Object of Conformity Assessment Requirements
 
 1. The _Issuer_ has creates or updates claims that have resulted from its _identity linking_, _identity verification_, _identity evidence determination_, and _identity continuity_ processes with respect to the _Subject(s)_ per [CAN/CIOSC 103-1:2020](https://ciostrategycouncil.com/standards/find-a-standard/standards-in-digital-trust/digital-trust-fundamentals/)
 2. _Claims_ relate to one or more _Subjects_.

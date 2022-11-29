@@ -10,7 +10,7 @@ Non-normative definitions which may assist in interpretation and application of 
 
 ### Appropriate Use Cases
 
-The use case SHOULD describe a WALLET scenario or an ISSUER scenario.
+The use case SHOULD describe a HOLDER scenario or an ISSUER scenario.
 
 ### Selection of Product, Service or Process
 
@@ -30,33 +30,14 @@ Examples of credential formats COULD be:
 
 ### Determination of Activities and Methods of Test
 
-* Provide a description of activities undertaken and [methods of test](./methods-of-tests.md). used to btain information regarding the fulfillment of the conformity assessment  requirements.
+## Part 2: Object of Conformity Assessment Requirements
 
-## Part 2: Object of Conformity Asssessment Requirements
-
-Conformity assessment requirements:
-
-ISO Conventions for Requirements
-
-* **Requirements** - SHALL, SHALL NOT
-* **Recommendations** - SHOULD, SHOULD NOT
-* **Permission** - MAY, MAY NOT
-* **Possibility and Capability** - CAN, CANNOT
-
-1. Conformity Assessment requirement 1
-2. ...
 
 ## Part 3: Determination of Outputs, Review and Attestation
 
 ### Determination of Outputs
 
-_Determination of [outputs](../scheme-definitions.md) that are used as input into the review, decision and attestation stage._
-
 ### Review and Decision
 
-_Review is the final stage of checking before taking the decision as to whether or not the object of conformity assessment e.g. product, service and system, has been reliably demonstrated to fulfil the specified requirements._
-
 ### Attestation
-
-_The “statement of conformity”, a standardizedc expression used to include then means of communicating that fulfilment of conformity assessment requirements has been demonstrated. It should be noted that a "statement of conformity" may include non fulfilment of specified requirements._
 

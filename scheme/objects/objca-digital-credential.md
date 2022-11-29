@@ -44,8 +44,6 @@ Please refer to [W3C Verifiable Credentials Use Cases](https://www.w3.org/TR/vc-
 
 ### Selection of Product, Service or Process
 
-* Provide descriptions of selected the products, services or process that are being tested in relation to the conformity assessment requirements._
-
 ### Determination of Activities and Methods of Test
 
 1. Methods of test SHALL include one or more the following:
@@ -55,8 +53,7 @@ Please refer to [W3C Verifiable Credentials Use Cases](https://www.w3.org/TR/vc-
 2. Methods of test SHALL reference a recommendation, standard, or specification published by a recognized body.
 3. All conformity assessment requirements SHALL be verifiable via the appropriate method of test
 
-
-## Part 2: Object of Conformity Asssessment Requirements
+## Part 2: Object of Conformity Assessment Requirements
 
 1. The relevant specifications or standards used for the method of test SHALL published by a recognized body. These MAY include one or several of the following:
     * JSON
@@ -79,7 +76,7 @@ Please refer to [W3C Verifiable Credentials Use Cases](https://www.w3.org/TR/vc-
 5. A digital credentials SHALL be tamper-evident.
 6. The authorship of a digital credential SHALL be cryptographically verifiable.
 7. A digital credential SHALL demonstrate that it can be stored within and presented from a minimum of two independent implementations.
-8. A digtal credential SHALL demonstrate that it can be cryptograhically verified using a minimum of two independent implementations.
+8. A digital credential SHALL demonstrate that it can be cryptographically verified using a minimum of two independent implementations.
 
 ## Part 3: Determination of Outputs, Review and Attestation
 
@@ -89,8 +86,4 @@ _Determination of [outputs](../scheme-definitions.md) that are used as input int
 
 ### Review and Decision
 
-_Review is the final stage of checking before taking the decision as to whether or not the object of conformity assessment e.g. product, service and system, has been reliably demonstrated to fulfil the specified requirements._
-
 ### Attestation
-
-_The “statement of conformity”, a standardizedc expression used to include then means of communicating that fulfilment of conformity assessment requirements has been demonstrated. It should be noted that a "statement of conformity" may include non fulfilment of specified requirements._

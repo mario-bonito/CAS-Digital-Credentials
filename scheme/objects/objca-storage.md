@@ -12,11 +12,10 @@
 
 ### Determination of Activities and Methods of Test
 
-## Part 2: Object of Conformity Asssessment Requirements
+## Part 2: Object of Conformity Assessment Requirements
 
-1. All Storage SHALL use required crypotgrahic modules as outlined in [Cryptographic Module](./objca-crypotgrahic-module.md) to secure personal information
-2. In a cloud computing enviroment Storage SHALL implement ISO/IEC 27018 measures to protect personally identifiable information (PII) and personal information (PI) in accordance with ISO/IEC 29100
-3.
+1. All Storage SHALL use required cryptographic modules as outlined in [Cryptographic Module](./objca-crypotgrahic-module.md) to secure personal information
+2. In a cloud computing environment, Storage SHALL implement ISO/IEC 27018 measures to protect personally identifiable information (PII) and personal information (PI) in accordance with ISO/IEC 29100
 
 ## Part 3: Determination of Outputs, Review and Attestation
 

@@ -26,7 +26,7 @@ Further definitions may provided by the evaluator or vendor:
 
 * Provide a description of activities undertaken and [methods of test](./methods-of-tests.md). used to btain information regarding the fulfillment of the conformity assessment  requirements.
 
-## Part 2: Object of Conformity Asssessment Requirements
+## Part 2: Object of Conformity Assessment Requirements
 
 Conformity assessment requirements:
 

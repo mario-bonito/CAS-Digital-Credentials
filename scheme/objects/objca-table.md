@@ -1,6 +1,6 @@
 # Objects of Conformity Assessment
 
-Objects of Conformity Assessment definitions ("object definitions") are adapted from selected techical specifications and standards and agreed to by the technical experts The definition reflects a common understanding and is used to define scope of the process, service or component and to specify the appropriate methods of test used for the purposes of conformity assessment.
+Objects of Conformity Assessment definitions ("object definitions") are adapted from selected technical specifications and standards and agreed to by the technical experts The definition reflects a common understanding and is used to define scope of the process, service or component and to specify the appropriate methods of test used for the purposes of conformity assessment.
 
 ## Object Definitions
 
@@ -14,8 +14,8 @@ The objects definitions are intended to be:
 *Status* field has the following values:
 
 * **PROPOSED** - proposed by technical experts and contributors.
-* **DRAFT** - in active draft by the techical experts with [link to object of conformity assessment specification (template example)](./objca-template.md)
-* **PILOT** - approved by the sponsor for pilot as part of a prototype conformity asssessment program (note: material may still be in draft phase)
+* **DRAFT** - in active draft by the technical experts with [link to object of conformity assessment specification (template example)](./objca-template.md)
+* **PILOT** - approved by the sponsor for pilot as part of a prototype conformity assessment program (note: material may still be in draft phase)
 * **RELEASED** - material is finalized and released as part of a published deliverable.
 
 Where possible, the object definitions are developed to be interpreted as a single process, service or component. If the definition implies  a role, then this will be specified as part of the definition. If an object definition consists of several components (i.e. a composite object), this is further specified in the object template.
@@ -25,7 +25,7 @@ Where possible, the object definitions are developed to be interpreted as a sing
 Conformity assessment object definitions being developed by the technical experts for inclusion in TS-115
 
 |Object of Conformity Assessment|Object of Conformity Assessment Definition|Status|
-|---------|------------------------------------|------|
+|-----------|------------------------------------|------|
 |**Digital Credential**|A portable digital record about a subject (e.g., organization, individual, product) that can be held and shared through a user-controlled wallet. It is the digital representation of a traditional physical certificate or information.|[DRAFT](./objca-digital-credential.md)|
 |**Credential Format**|A Credential Format is used to specify: 1. Identifier of the credential issuer, 2. Schema of issued credential. 3. Keys used to sign claims within the credential 4. Cryptographic methods used. 5. Revocation methods (optional)|[DRAFT](./objca-credential-format.md)|
 |**Decentralized Identifier**|A globally unique persistent identifier that does not require a centralized registration authority and is often generated and/or registered cryptographically.|[DRAFT](objca-decentralized-identifier.md)|

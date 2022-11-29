@@ -1,4 +1,4 @@
-# Object of Conformity Assessment Specification: CRYPTOGRAPHIC MODULE
+# Object of Conformity Assessment Specification: Cryptographic Module
 
 ## Part 1: Object of Conformity Assessment Specifications
 

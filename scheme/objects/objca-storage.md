@@ -1,4 +1,4 @@
-# Object of Conformity Assessment Specification: TEMPLATE
+# Object of Conformity Assessment Specification: Storage
 
 ## Part 1: Object of Conformity Assessment Specifications
 

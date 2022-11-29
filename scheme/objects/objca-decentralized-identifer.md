@@ -5,6 +5,7 @@
 A DID is a simple text string consisting of three parts: 1) the _did_ URI scheme identifier, 2) the identifier for the _DID method_, and 3) the DID method-specific identifier.
 
 ![Parts of DID](../images/parts-of-did.png)
+[Image: W3C Decentralized Identifiers (DIDs) v1.0](https://www.w3.org/TR/did-core/)
 
 ### Related Definitions
 

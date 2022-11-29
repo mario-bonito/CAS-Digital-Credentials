@@ -14,9 +14,8 @@ The use case SHOULD describe a WALLET scenario or an ISSUER scenario.
 
 ### Selection of Product, Service or Process
 
-Credential formats SHALL be:
+Examples of credential formats COULD be:
 
-* AnonCreds
 * LD Proofs with BBS+
 * ISO mDL
 * JWT

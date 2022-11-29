@@ -27,9 +27,7 @@ table-of-contents: true
 
 toc-depth: 3
 
-
 fail-if-warnings: true
-
 
 verbosity: INFO
 

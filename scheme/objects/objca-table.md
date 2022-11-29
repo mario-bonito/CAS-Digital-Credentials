@@ -20,14 +20,12 @@ The objects definitions are intended to be:
 
 Where possible, the object definitions are developed to be interpreted as a single process, service or component. If the definition implies  a role, then this will be specified as part of the definition. If an object definition consists of several components (i.e. a composite object), this is further specified in the object template.
 
-
-
 ## Minimal Viable Set for TS-115
 
 Conformity assessment object definitions being developed by the technical experts for inclusion in TS-115
 
 |Object of Conformity Assessment|Object of Conformity Assessment Definition|Status|
-|----|----|----|
+|---------|------------------------------------|------|
 |**Digital Credential**|A portable digital record about a subject (e.g., organization, individual, product) that can be held and shared through a user-controlled wallet. It is the digital representation of a traditional physical certificate or information.|[DRAFT](./objca-digital-credential.md)|
 |**Credential Format**|A Credential Format is used to specify: 1. Identifier of the credential issuer, 2. Schema of issued credential. 3. Keys used to sign claims within the credential 4. Cryptographic methods used. 5. Revocation methods (optional)|[DRAFT](./objca-credential-format.md)|
 |**Decentralized Identifier**|A globally unique persistent identifier that does not require a centralized registration authority and is often generated and/or registered cryptographically.|[DRAFT](objca-decentralized-identifier.md)|
@@ -36,15 +34,15 @@ Conformity assessment object definitions being developed by the technical expert
 |**Verifier**|A process, service or component that verifies the presentation of a credential to yield an ACCEPT or REJECT decision|[DRAFT](./objca-verifier.md)|
 |**Storage**|A foundational layer for secure data storage, including personal data, including data models for storage and transport, syntax, data at rest protection, CRUD API, access control, synchronization, and a minimum viable HTTP-based interface compatible with W3C DIDs/VCs.|[DRAFT](objca-storage.md)|
 |**Cryptographic Module**|The set of hardware, software, and/or firmware that implements cryptographic security functions (including cryptographic algorithms and key generation) and is contained within the cryptographic boundary.|[DRAFT](objca-cryptographic-module.md)|
+
 ## Priority List
 
 Conformity assessment object definitions that will be included in subsequent document releases.
 
 |Object of Conformity Assessment|Object of Conformity Assessment Definition|Status|
-|----|----|----|
-
+|----------|------------------------------------|---------|
 |**Holder Binding**|Holder Binding is the process of associating a Credential issued to a Holder and limiting its control to the associated Holder|PROPOSED|
-|**Signature**|An electronic representation where, at a minimum: the entity signing the data can be associated with the electronic representation, it is clear that the entity intended to sign, the reason or purpose for signing is conveyed, and the data integrity of the signed transaction is maintained, including the original. **Alternate definition:** A key represents content secured with a digital   signature or message authentication code |PROPOSED|
+|**Signature**|An electronic representation where, at a minimum: the entity signing the data can be associated with the electronic representation, it is clear that the entity intended to sign, the reason or purpose for signing is conveyed, and the data integrity of the signed transaction is maintained, including the original. **Alternate definition:** A key represents content secured with a digital signature or message authentication code|PROPOSED|
 |**Digital Trust Service**|A Digital Trust Service is an enabling service that can include one or several of the followiing: digital credentials, verifiable data registries, issuing services, verifying services, and, digital wallet services.|PROPOSED|
 |**Credential Exchange**|Credential Exchange is the set of protocols required to 1. Issue a Credential to a Holder, 2) Present a Proof to a Verifier|PROPOSED|
 |**Credential Proof**|A generalized proof (or set of proofs) that can be used to demonstrate one or more of: that the credential is valid, that the information (or derived information) is consistent with the intent for which it was issued, that the credential has not been tampered with, and, that the credential is being presented by the Holder (or authorized delegate) to whom it was issued. The proofs may employ cryptographic, or non-cryptographic means|PROPOSED|
@@ -54,7 +52,7 @@ Conformity assessment object definitions that will be included in subsequent doc
 Conformity assessment object definitions that are under consideration and may be included in subsquent document releases.
 
 |Object of Conformity Assessment|Object of Conformity Assessment Definition|Status|
-|----|----|----|
+|----------|------------------------------------|---------|
 |**Identifier**|The set of identity attributes used to uniquely distinguish a particular entity within a population.`|PROPOSED|
 |**Assigned Identifier**|A numeric or alphanumeric string that is generated automatically and that uniquely distinguishes between Entities within a population without the use of any other identity attributes.|PROPOSED|
 |**Verifiable Identifier**|A type of identifier which its control can be independently verified (generally by cryptographic means|PROPOSED|
@@ -106,7 +104,7 @@ Technology Readiness Levels (TRL) describe the different stages of pre-commercia
 All objects of conformity SHOULD be assessed at TRL 7 or greater
 
 |TRL|Short Definition|Description|Example of Activities|
-|----|----|----|----|
+|:--:|-------|----------------|--------|
 |1|Basic principles observed and reported.|Lowest level of technology readiness. Scientific research begins to be translated into applied research and development (R&D).|Activities might include paper studies of a technology's basic properties.|
 |2|Technology concept and/or application formulated.|Invention begins. Once basic principles are observed, practical applications can be invented. Applications are speculative, and there may be no proof or detailed analysis to support the assumptions.|Activities are limited to analytic studies.|
 |3|Analytical and experimental critical function and/or characteristic proof of concept.|Active R&D is initiated. This includes analytical studies and laboratory studies to physically validate the analytical predictions of separate elements of the technology.|Activities include components that are not yet integrated or representative.|

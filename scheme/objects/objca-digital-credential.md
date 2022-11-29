@@ -1,4 +1,4 @@
-# Object of Conformity Assessment Specification: Digital Credential
+# Object of Conformity Assessment Specification: DIGITAL CREDENTIAL
 
 ## Part 1: Object of Conformity Assessment Specifications
 

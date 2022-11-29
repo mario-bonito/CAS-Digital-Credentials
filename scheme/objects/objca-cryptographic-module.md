@@ -14,8 +14,6 @@ The set of hardware, software, and/or firmware that implements cryptographic sec
 
 ## Part 2: Object of Conformity Asssessment Requirements
 
-## Part 2: Object of Conformity Asssessment Requirements
-
 1. All cryptographic algorithms and parameters SHALL conform with [ ITSP.40.111 - Cryptographic algorithms for UNCLASSIFIED, PROTECTED A, and PROTECTED B Information ](https://cyber.gc.ca/en/guidance/cryptographic-algorithms-unclassified-protected-protected-b-information-itsp40111)
 2. All data (both at rest and/or in transit) SHALL be treated at PROTECTED B
 3. Passphrases and passwords SHOULD follow reccomended best practices [ITSAP.30.032 - Best practices for passphrases and passwords](https://cyber.gc.ca/en/guidance/best-practices-passphrases-and-passwords-itsap30032)
